@@ -1,0 +1,12 @@
+What is the difference between a merge and a rebase?
+
+Merging involves combines the changes of one branch to another; any time a merge occurs, a commit representing 
+the merge is added to the history of the repository. The merge commit has two "parent" commits, one each for the
+states of the "source" branch and the "target" branch of the merge. What having these two commits does is maintain
+the history of changes for the source and target branches and show where the two branches intersect.
+
+Rebasing instead "rewrite history" in that the individual histories of both branches are not maintained, and it
+appears to anyone looking at the repository after that all the commits made in the "source" branch all occurred
+after the commits in the target branch that occurred before the rebasing. What this means is that rather than
+the history reflecting the simultaneous changes occuring, rebasing makes it seem like the commmits occur
+sequentially/linearly.
