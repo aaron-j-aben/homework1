@@ -9,3 +9,10 @@ Rebasing instead "rewrite history" in that the individual histories of both bran
 appears to anyone looking at the repository after that all the commits made in the "source" branch all occurred
 after the commits in the target branch that occurred before the rebasing. What this means is that rather than
 the history reflecting the simultaneous changes occuring, rebasing makes it seem like the commmits occur
+
+What is a remote repository?
+
+A remote repository is a repo or code base that is hosted remotely on a server as opposed to a local device.
+Based on my understanding, a remote repository is the center of the version control for a project. People working
+on the project make modifications on their local copies of the remote repository and update the remote repository
+when they make changes they want to commit.
